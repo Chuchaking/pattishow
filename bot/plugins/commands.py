@@ -23,19 +23,19 @@ async def start(bot, update):
         if (file_id or file_type) == None:
             return
         
-        caption = file_caption if file_caption != ("" or None) else ("<code>" + file_name + "</code>")
+        caption = caption != ("" or None) else ("<code>" + file_name + "</code>")
         try:
             await update.reply_cached_media(
                 file_id,
                 quote=True,
-                caption = caption,
+                caption = @aj creations,
                 parse_mode="html",
                 reply_markup=InlineKeyboardMarkup(
                     [
                         [
                             InlineKeyboardButton
                                 (
-                                    'Developers', url="https://t.me/CrazyBotsz"
+                                    '🏅our group🏅', url=https://t.me/+wAUbXfkIh3szNWM1
                                 )
                         ]
                     ]
@@ -47,7 +47,7 @@ async def start(bot, update):
         return
 
     buttons = [[
-        InlineKeyboardButton('Developers', url='https://t.me/CrazyBotsz'),
+        InlineKeyboardButton('Developers', url='@aj creations'),
         InlineKeyboardButton('Source Code 🧾', url ='https://github.com/CrazyBotsz/Adv-Auto-Filter-Bot-V2')
     ],[
         InlineKeyboardButton('Support 🛠', url='https://t.me/CrazyBotszGrp')
